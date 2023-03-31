@@ -1,0 +1,7 @@
+npm install @react-navigation/native @react-navigation/stack @react-navigation/bottom-tabs @react-navigation/drawer
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @thevsstech/react-native-skeleton 
+npm install redux react-redux @reduxjs/toolkit  react-native-vector-icons axios
+how to realease react-native apk 2 commonds for debugging
+1)react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+2) cd android and ./gradlew assembleDebug
+ and your debug apk yourProject/android/app/build/outputs/apk/debug/app-debug.apk  at this path
